@@ -1,0 +1,124 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Search Bar Styling */
+.search-bar {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchInput {
+    border: 1px solid #ddd;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 70%;
+    padding: 12px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+#searchInput:focus {
+    border-color: #7b2ff7;
+}
+
+#searchBtn {
+    border: none;
+    background-color: #7b2ff7;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#searchBtn:hover {
+    background-color: #6523c5;
+}
+
+/* Search History Container */
+#searchHistoryContainer {
+    margin-top: 30px;
+}
+
+#searchHistoryList {
+    list-style: none;
+    padding: 0;
+}
+
+#searchHistoryList li {
+    border-radius: 6px;
+    background-color: #e8e8e8;
+    padding: 10px;
+    margin-bottom: 8px;
+    color: #4a4a4a;
+    transition: background-color 0.3s;
+}
+
+#searchHistoryList li:hover {
+    background-color: #d2d2d2;
+}
+
+/* Clear History Button */
+#clearHistoryBtn {
+    border: none;
+    background-color: #6b4c7e;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#clearHistoryBtn:hover {
+    background-color: #932bb6;
+}
+
+/* Headings */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Subheading Styling */
+h4 {
+    font-size: 16px;
+    margin-bottom: -11px;
+    color: #555;
+}
